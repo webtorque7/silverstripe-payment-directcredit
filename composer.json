@@ -1,0 +1,26 @@
+{
+	"name": "webtorque7/silverstripe-payment-directcredit",
+	"description": "SilverStripe Direct Credit Payment Module",
+	"type": "silverstripe-module",
+	"license": "BSD-3-Clause",
+	"keywords": ["silverstripe","payment","cheque","check"],
+	"authors": [
+		{
+			"name": "Conrad Dobbs",
+			"homepage": "https://github.com/webtorque7",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"silverstripe/cms": "3.*",
+		"silverstripe/framework": "3.*",
+		"silverstripe/payment": "1.0.*"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "git@github.com:silverstripe-labs/silverstripe-payment.git"
+		}
+	]
+}

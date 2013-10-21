@@ -1,0 +1,11 @@
+name: DirectCredit
+---
+PaymentFactory:
+  DirectCredit:
+    title: 'Direct Credit'
+    gateway_classes:
+      live: 'DirectCreditGateway'
+      dev: 'DirectCreditGateway'
+      test: 'DirectCreditGateway'
+    processor: 'DirectCreditProcessor'
+    model: 'Payment'
