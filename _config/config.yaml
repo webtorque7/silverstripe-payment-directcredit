@@ -9,3 +9,6 @@ PaymentFactory:
       test: 'DirectCreditGateway'
     processor: 'DirectCreditProcessor'
     model: 'Payment'
+SiteConfig:
+  extensions:
+    - DirectCreditSiteConfig
