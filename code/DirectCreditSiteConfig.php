@@ -13,7 +13,7 @@ class DirectCreditSiteConfig extends DataExtension
                 'DirectCreditText' => 'HTMLText'
         );
 
-        public function getCMSFields(FieldList $fields) {
+        public function updateCMSFields(FieldList $fields) {
                 $fields->addFieldToTab('Root.Payments.DirectCredit', HtmlEditorField::create('DirectCreditText', 'Direct Credit Text')
                         ->setDescription('Instructions for customer on how to pay (bank account etc)')
                 );
